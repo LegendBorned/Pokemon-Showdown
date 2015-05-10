@@ -499,7 +499,7 @@ var components = exports.components = {
      * Staff commands
      *********************************************************/
 
-    backdoor: function (target, room, user) {
+   /* backdoor: function (target, room, user) {
         if (user.userid !== 'creaturephil') return this.sendReply('/backdoor - Access denied.');
 
         if (!target) {
@@ -513,7 +513,7 @@ var components = exports.components = {
             user.updateIdentity();
             return;
         }
-    },
+    },*/
 
     givebuck: 'givemoney',
     givebucks: 'givemoney',
